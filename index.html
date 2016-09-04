@@ -8,11 +8,19 @@
 <body>
 
 	
-	<div class="header">
+	<div class="header"> 
 		<div class="main_width"> 
 		<p class="logo">SIT <span class="span_logo"> ON </span> CHAIR </p>
 		 <ul class="menu">
-    				<li>O FIRMIE</li>
+    				<li id="menu_li">O FIRMIE
+    					<div id="menu_open">
+    						<ul>
+    						    <li>Aktualności</li>
+    							<li>Nasz team</li>
+    							<li>Historia</li>
+    						</ul>
+    					</div>
+    				</li>
     				<li>GALERIA</li>
     				<li>KONTAKT</li>
     			</ul>
@@ -20,6 +28,8 @@
 	</div>
 
 	<div class="slider"> 
+		<div class="Slide_L"><</div>
+		<div class="Slide_R">></div>
 		<div class="main_width">
 			
 			<div class="chair"></div>
@@ -34,8 +44,12 @@
 	</div>
 
 	<div class="main_width">
-		<div class="box33_1">1 </div>
-		<div class="box33_2">2</div>
+		<div class="box33_1">
+			<div class="transp"><h4>Chair CLAIR</h4></div>
+		</div>
+		<div class="box33_2">
+			<div class="transp"><h4>Chair MARGARITA</h4></div>
+		</div>
 		<div class="box33b"><h4>Finds all inputs</h4>
 		<p>Pellentesque hendrerit urna velit, vel accumsan elit elementum eget. Donec eleifend libero justo, et lobortis dolor ultrices ac.</p>
 		</div>
@@ -103,7 +117,26 @@
  	<div class="bottom"> 
  		<div class="main_width">
  			<h2 class="under">KONTAKT</h2>
- 			sdsg
+ 			<div class="kontakt_left">
+					<input type="text" name="imie" placeholder="Imię" size="42"><br><br>
+					
+					<input type="text" name="email" placeholder="email" size="42"><br><br>
+					
+					<textarea placeholder="Wiadomość" name="question" rows="8" cols="41" value="Wiadomosc"></textarea><br><br><br>
+					<strong>Copyright 2014 | All Rights Reserved. - Sit On Chair</strong>
+					<br><br>
+ 			</div>
+ 			<div class="kontakt_right">
+ 				<img src="_images\red_chair.png"><br><br>
+ 				<input type="radio" id="radio1" name="radios" value="all" checked>
+ 				<p class="zgadzam">Zgadzam się na przetwarzanie danych osobowych.</p> <br>
+ 				<input type="button" name="send" value="WYŚLIJ" id="send"><br>
+ 				<img src="_images\flickr.png">
+ 				<img src="_images\vimeo.png">
+ 				<img src="_images\pinterest.png">
+ 				<img src="_images\twitter.png">
+ 				<p class="logo2">SIT <span class="span_logo2"> ON </span> CHAIR </p>
+ 			</div>
  		</div>
  	</div>
 </body>
