@@ -2,70 +2,21 @@
 
 
 
-@font-face {
-    font-family: 'ralewaybold';
-    src: url('../_fonts/raleway-bold-webfont.woff2') format('woff2'),
-         url('../_fonts/raleway-bold-webfont.woff') format('woff'),
-         url('../_fonts/raleway-bold-webfont.ttf') format('truetype'),
-         url('../_fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
-
-
-
-
-@font-face {
-    font-family: 'ralewayitalic';
-    src: url('../_fonts/raleway-italic-webfont.woff2') format('woff2'),
-         url('../_fonts/raleway-italic-webfont.woff') format('woff'),
-         url('../_fonts/raleway-italic-webfont.ttf') format('truetype'),
-         url('../_fonts/raleway-italic-webfont.svg#ralewayitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'ralewayregular';
-    src: url('../_fonts/raleway-regular-webfont.woff2') format('woff2'),
-         url('../_fonts/raleway-regular-webfont.woff') format('woff'),
-         url('../_fonts/raleway-regular-webfont.ttf') format('truetype'),
-         url('../_fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-            
-
-@font-face {
-    font-family: 'ralewaybold_italic';
-    src: url('_fonts/raleway-bolditalic-webfont.woff2') format('woff2'),
-         url('_fonts/raleway-bolditalic-webfont.woff') format('woff'),
-         url('_fonts/raleway-bolditalic-webfont.ttf') format('truetype'),
-         url('_fonts/raleway-bolditalic-webfont.svg#ralewaybold_italic') format('svg');
-    font-weight: bold;
-    font-style: italic;
-
-}
 
 body{
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     margin: 0;
 }
 
 .bold{
-    font-family: 'ralewaybold';
+    font-family: 'Raleway';
+    font-weight: bold;
 }
 
 .italic{
-    font-family: 'ralewayitalic';
+    font-family: 'Raleway';
+    font-style: italic;
 }
 
 .main_width{
@@ -83,7 +34,8 @@ body{
 .menu li{
     display: inline-block;
     color: white;
-    font-family: 'ralewaybold';
+    font-family: 'Raleway';
+    font-weight: bold;
     margin-right: 20px;
     position: relative;
 }
@@ -92,24 +44,26 @@ body{
 }
 .logo{
     margin-left: 30px;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     float: left;
 }
 
 .logo2{
     margin-left: 30px;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     float: right;
     color: grey;
 }
 .span_logo {
-     font-family: 'ralewaybold';
-     color: #27C7AB;
+    font-family: 'Raleway';
+    font-weight: bold;;
+    color: #27C7AB;
 }
 
 .span_logo2 {
-     font-family: 'ralewaybold';
-     color: grey;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: grey;
  }
 .slider {
     position: relative;
@@ -156,13 +110,14 @@ margin-right: 50px;
 
 .lead_lead {
     font-size: 24px;
-     font-family: 'ralewayregular';
+     font-family: 'Raleway';
 }
 
 .lead_bold {
 
     font-size: 24px;
-     font-family: 'ralewaybold';
+    font-family: 'Raleway';
+    font-weight: bold;
      color: #27C7AB;
 }
 
@@ -181,7 +136,7 @@ margin-right: 50px;
     width: 200px;
     height: 50px;
     background-color: #27C7AB;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     color: white;
     border-radius: 5px 5px;
     text-align: center;
@@ -231,7 +186,8 @@ margin-right: 50px;
 }
 
 .box33_1 h4 {
-    font-family: 'ralewaybold';
+    font-family: 'Raleway';
+    font-weight: bold;
     color: black;
     border-bottom: solid 5px #27C7AB;
     display: block;
@@ -239,7 +195,8 @@ margin-right: 50px;
 }
 
 .box33_2 h4 {
-    font-family: 'ralewaybold';
+    font-family: 'Raleway';
+    font-weight: bold;
     color: black;
     border-bottom: solid 5px #27C7AB;
     display: block;
@@ -259,7 +216,8 @@ margin-right: 50px;
 }
 
 .box33b h4 {
-    font-family: 'ralewaybold';
+    font-family: 'Raleway';
+    font-weight: bold;
     color: black;
     border-bottom: solid 5px #27C7AB;
     display: block;
@@ -267,7 +225,7 @@ margin-right: 50px;
 }
 
 .box33b p{
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     color: grey;
 }
 
@@ -313,14 +271,14 @@ margin-right: 50px;
 
     transform: translate(0px, 20px);
     text-align: center;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     color: #27C7AB;
 }
 
 .plan_container0:hover h3 {
     transform: translate(0px, 20px);
     text-align: center;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     color: white;
 }
 
@@ -351,7 +309,7 @@ margin-right: 50px;
 
     transform: translate(0px, 20px);
     text-align: center;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     color: white;
 
 }
@@ -360,7 +318,7 @@ margin-right: 50px;
         display: block;
     background-color: rgb(245,245,245);
     text-align: center;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     color: black;
     margin: 0;
 }
@@ -371,7 +329,7 @@ margin-right: 50px;
     display: block;
     background-color: rgb(230,230,230);
     text-align: center;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     color: black;
     margin: 0;
 
@@ -382,7 +340,7 @@ margin-right: 50px;
     display: block;
     background-color: white;
     text-align: center;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     color: black;
     margin: 0;
 
@@ -392,7 +350,7 @@ margin-right: 50px;
     display: block;
     background-color: rgb(245,245,245);
     text-align: center;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     color: black;
     margin: 0;
 }
@@ -461,7 +419,7 @@ margin-right: 50px;
     display: inline-block;
     background-color: #27C7AB;
     color: white;
-     font-family: 'ralewayregular';
+     font-family: 'Raleway';
      width: 110px;
      height: 30px;
      text-align: center;
@@ -477,10 +435,10 @@ margin-right: 50px;
     display: inline-block;
     background-color: white;
     color: #27C7AB;
-     font-family: 'ralewayregular';
+     font-family: 'Raleway';
 }
 .under {
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     color: grey;
     border-bottom: solid 4px #27C7AB;
     display: block;
@@ -491,13 +449,15 @@ margin-right: 50px;
 
 .plan_container0 h2{
     color: grey;
-     font-family: 'ralewaybold';
+    font-family: 'Raleway';
+    font-weight: bold;
      line-height: 20px;
 }
 
 .plan_container1 h2{
     color: #27C7AB;
-     font-family: 'ralewaybold';
+    font-family: 'Raleway';
+    font-weight: bold;
      line-height: 20px;
 }
 .small {
@@ -519,7 +479,7 @@ input[type=text] {
     border: 1px solid #27C7AB;
     border-radius: 4px;
     color: #e5e3e6;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     font-size: 25px;
 }
 
@@ -527,7 +487,7 @@ textarea {
     color: #e5e3e6;
     border: 1px solid #27C7AB;
     border-radius: 4px;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     font-size: 25px;
 }
 
@@ -540,7 +500,7 @@ strong {
     width: 100%;
     font-size: 18px;
     line-height: 24px;
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
     transform: translate(-50px, 30px);
     visibility: hidden;
     transition: 0.2s 1s;
@@ -554,7 +514,7 @@ strong {
     }
 
 #menu_open li {
-    font-family: 'ralewayregular';
+    font-family: 'Raleway';
 
 }
 
@@ -587,7 +547,8 @@ input[type=button] {
     background-color: #27C7AB;
     border-radius: 4px;
     color: white;
-    font-family: 'ralewaybold';
+    font-family: 'Raleway';
+    font-weight: bold;
     font-size: 25px;
     width: 200px;
     height: 50px;
