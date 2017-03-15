@@ -42,7 +42,7 @@
 }
 
 
-
+            
 
 @font-face {
     font-family: 'ralewaybold_italic';
@@ -57,6 +57,7 @@
 
 body{
     font-family: 'ralewayregular';
+    margin: 0;
 }
 
 .bold{
@@ -70,7 +71,7 @@ body{
 .main_width{
     width: 930px;
     margin: 0 auto;
-  /*  border: solid 1px red;       <---------------  */
+         
 }
 
 .header{
@@ -500,6 +501,7 @@ margin-right: 50px;
      line-height: 20px;
 }
 .small {
+    margin-top: -1px; 
     font-size: 8px;
 }
 
@@ -540,7 +542,8 @@ strong {
     line-height: 24px;
     font-family: 'ralewayregular';
     transform: translate(-50px, 30px);
-    display: none;
+    visibility: hidden;
+    transition: 0.2s 1s;
     position: absolute;
     width: 180px;
     height: 100px;
@@ -567,13 +570,18 @@ strong {
     }
 
 #menu_li:hover #menu_open {
-    display: block;
+    visibility: visible;
+    transition-delay: 0s;
     
 }
 
-#menu_open:hover {
-    display: block;
+#menu_li {
+    display: inline-block;
+    
 }
+/*#menu_open:hover {
+    display: block;
+}*/
 
 input[type=button] {
     background-color: #27C7AB;
